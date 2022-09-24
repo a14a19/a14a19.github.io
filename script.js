@@ -190,7 +190,7 @@ function cssFunction() {
     newProfileImg.src = `${user1[0].photos[0]}`;
     newProfileImg.classList = "profile-image rounded-circle";
     intro.style.cssText = "display: flex; justify-content: center; text-align: center; margin-top: 70px;";
-    quoteTxt.style.cssText = "font-size: 80px;";
+    quoteTxt.style.cssText = "font-size: 60px;";
     quoteTxt.classList = "quote-txt";
     quoteAuther.style.cssText = "font-size: 40px; margin: 20px auto 30px; color: rgba(255, 255, 255, 0.3);"
     quoteAuther.classList = "quote-txt-A"

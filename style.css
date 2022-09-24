@@ -30,7 +30,7 @@ header {
     right: 0;
     left: 0;
     top: 0;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(135, 135, 135, 0.1);
     z-index: 15;
     backdrop-filter: blur(8px);
 }
@@ -80,14 +80,14 @@ header a:hover {
     align-items: center;
     transition: all 1s;
     z-index: 20;
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(10px);
 }
 
 .profile-image {
-    width: 270px;
-    height: 270px;
+    width: 250px;
+    height: 250px;
     position: relative;
-    box-shadow: 0 0 4px 5px rgba(255, 255, 255, 0.8), 40px 30px 50px rgba(110,123,251, 0.55), -40px -30px 50px rgba(156,252,248, 0.55);
+    box-shadow: 0 0 4px 5px rgba(255, 255, 255, 0.8), 20px -20px 30px #8c8aff5c, -30px -20px 30px #8af1ff5c, 0px 40px 30px #fd8a8a5c;
 }
 
 main {
@@ -98,37 +98,27 @@ main {
     justify-items: center;
     position: relative;
     overflow: hidden;
+    animation: backgroundColorPalette 10s alternate infinite;
 }
 
-main::after {
-    content: "";
-    position: absolute;
-    z-index: -100;
-}
-
-main::before{
-    content: "";
-    position: absolute;
-    width: 10000%;
-    height: 10000%;
-    background: linear-gradient( 
-                109.6deg, 
-            rgba(156,252,248,1) 11.2%, 
-            rgba(110,123,251,1) 91.1% 
-    );
-    animation: background-animation 5s linear infinite;
-    z-index: -100;
-    transition: all 2s;
-}
-
-@keyframes background-animation {
+@keyframes backgroundColorPalette {
     0% {
-        transform: rotate(0deg);
-    }    
-    100% {
-        transform: rotate(360deg);
+      background: #fd8a8a80;
     }
-}
+     25% {
+        background: #8af1ff80; 
+    }
+      
+    50% {
+      background:  #8c8aff80;
+    }
+    75%{
+        background: rgba(232, 138, 255, 0.5);
+    }
+    100% {
+      background: #ff8b8b90;
+    }
+  }
 
 #profile {
     position: relative;
@@ -139,7 +129,7 @@ main::before{
     background: rgba(255, 255, 255, 0.2);
     animation: card 2.75s linear infinite;
     transition: all 1s;
-    box-shadow: 0px 10px 10px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 8px 8px 1px rgba(0, 0, 0, 0.1);
 }
 
 @keyframes card {
@@ -215,7 +205,7 @@ main::before{
 
 .vl, .vl2, .vl3, .vl4, .vl5, .vl6, .vl7, .vl8, .vl9 {
     width: 1.5px; 
-    height: 60px; 
+    height: 50px; 
     background: rgb(255,255,255,0.2);
 }
 
@@ -251,7 +241,7 @@ main::before{
 
 .vlm4, .vlm5, .vlm6, .vlm7, .vlm8 {
     position: relative;
-    height: 60px;
+    height: 50px;
 }
 
 .vlm7 {
@@ -334,7 +324,7 @@ main::before{
 .w-txt, .atxt {
     margin: 20px auto;
     max-width: 478px;
-    min-width: 300px;
+    min-width: 275px;
 }
 
 .p-txt {
@@ -346,8 +336,8 @@ main::before{
 }
 
 .work-img {
-    width: 250px;
-    height: 250px;
+    width: 225px;
+    height: 225px;
     display: flex;
     margin: 45px auto;
     position: relative;
@@ -406,8 +396,8 @@ main::before{
 }
 
 .work-rt-sub1, .work-rt-sub-2 {
-    max-width: 380px;
-    min-width: 275px;
+    max-width: 300px;
+    min-width: 250px;
     padding: 20px;
     background: rgba(55, 55, 90, 0.4);
     color: rgba(245, 245, 245, 0.8);
@@ -433,8 +423,8 @@ main::before{
 }
 
 .proj-main {
-    max-width: 400px;
-    min-width: 290px;
+    max-width: 390px;
+    min-width: 280px;
     margin: 15px;
     height: 200px;
 }
@@ -486,8 +476,8 @@ main::before{
     background: rgba(55, 55, 90, 0.4);
     color: rgba(245, 245, 245, 0.8);
     border: 1px solid rgba(245, 245, 245, 0.2);
-    max-width: 350px;
-    min-width: 275px;
+    max-width: 320px;
+    min-width: 250px;
     height: 175px;
     margin: 20px;
 }
@@ -518,8 +508,8 @@ main::before{
 }
 
 #about-rt img {
-    width: 250px;
-    height: 250px;
+    width: 225px;
+    height: 225px;
     margin: 10px 0px 15px 0px;
 }
 
@@ -808,11 +798,6 @@ footer {
 }
 
 @media(max-width: 375px){
-    .profile-image {
-        width: 250px;
-        height: 250px;
-    }
-
     #mern, .quote-txt, .quote-txt-A, .w-txt, .p-txt, .atxt, #contact h3 {
         font-size: 30px !important;
     }
@@ -834,8 +819,8 @@ footer {
     }
 
     .work-img, #about-rt img {
-        width: 225px;
-        height: 225px;
+        width: 210px;
+        height: 210px;
     }
 
     #contact-btn {
