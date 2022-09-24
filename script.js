@@ -47,41 +47,19 @@ const details = [{
         "https://twitter.com/a_14_a_19",
         "https://www.facebook.com/profile.php?id=100063229659168"
     ],
-    "inspired" : "https://www.milipernia.com/index.html"
+    "inspired" : "https://www.milipernia.com/index.html",
+    "website" : "https://a14a19.github.io/index.html"
 }
 ];
 
 
 const user1 = details.filter((user)=> user.userId == 1);
 
-
-// Rough work below this
-
-
-// const sIcon = document.querySelectorAll(".social-icon");
-
-// for(a in sIcon){
-
-//     for(q in user1[0].social){
-//         // console.log(user1[0].social[q], `from social`)
-//         // console.log(sIcon[a].href)
-//     }
-    
-// }
-
-// aa = [1, 2, 3, 4, 5]
-// bb = [6, 7, 8, 9, 10]
-// cc = [1*6, 2*7, 3*8, 4*9, 5*10]
-//desired result (aa * bb = cc) 
-
-
-// Rough work above this
-
 // used try and catch for error in user details 
 
 for(x in user1){
     
-    const {userId, name, title, skills, location, contact, edu, photos, quote, memoji, project, projectGit, social, inspired } = user1[x];
+    const {userId, name, title, skills, location, contact, edu, photos, quote, memoji, project, projectGit, social, inspired, website } = user1[x];
     
     function myGenFn(element){
 
@@ -112,7 +90,7 @@ for(x in user1){
     myGenFn(social);
 
     try {
-        if(userId, name, quote, inspired == ""){
+        if(userId, name, quote, inspired, website == ""){
             throw new Error("Please wait while host is fixing the error or inform at '+918251039590' or 'anas31197@gmail.com', Thank you!!")
         }
     } catch (err) {
@@ -182,6 +160,7 @@ function innerTextFn(){
     rtHeader.classList = "rt-header";
     hello.classList = "hello";
     headerName.innerText = `${user1[0].name}`;
+    headerName.href = `${user1[0].website}`;
     mainName.innerText = `${user1[0].name.slice(0, 4)}!`;
     skillCard1.innerText = `${user1[0].skills[0]}`;
     skillCard2[0].innerText = `${user1[0].skills[4]}`;
