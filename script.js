@@ -32,13 +32,13 @@ const details = [{
         "https://live.staticflickr.com/65535/52375674426_9a0850ae2f_o.jpg",
         "https://live.staticflickr.com/65535/52375893898_2d0176288d_o.jpg",
         "https://live.staticflickr.com/65535/52376089980_2662edb9bb_o.jpg",
-        "https://live.staticflickr.com/65535/52375984044_9ed5d4db0b_o.jpg"
+        "https://live.staticflickr.com/65535/52382793153_6164c4aec9_o.jpg"
     ],
     "projectGit" :[
         "https://github.com/a14a19/Nuuk-WebApp",
         "https://github.com/a14a19/Edyoda-stories",
         "https://github.com/a14a19/Stunning-Landing-page",
-        "https://github.com/a14a19/pokemon"
+        "https://github.com/a14a19/starwar-pokemon"
     ],
     "social" : [
         "https://github.com/a14a19", 
@@ -52,6 +52,7 @@ const details = [{
 }
 ];
 
+// https://live.staticflickr.com/65535/52382793153_6164c4aec9_o.jpg
 
 const user1 = details.filter((user)=> user.userId == 1);
 
