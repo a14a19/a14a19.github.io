@@ -91,7 +91,7 @@ header a:hover {
 }
 
 main {
-    padding-top: 120px;
+    padding-top: 100px;
     display: grid;
     grid-template-columns: auto;
     align-items: center;
@@ -106,9 +106,8 @@ main {
       background: #fd8a8a80;
     }
      25% {
-        background: #8af1ff80; 
+        background: #47798580; 
     }
-      
     50% {
       background:  #8c8aff80;
     }
