@@ -48,7 +48,10 @@ const details = [{
         "https://www.facebook.com/profile.php?id=100063229659168"
     ],
     "inspired" : "https://www.milipernia.com/index.html",
-    "website" : "https://a14a19.github.io/index.html"
+    "website" : "https://a14a19.github.io/index.html",
+    "projectUrl" : [
+        "https://nuuk-webapp.web.app/"
+    ]
 }
 ];
 
@@ -60,7 +63,7 @@ const user1 = details.filter((user)=> user.userId == 1);
 
 for(x in user1){
     
-    const {userId, name, title, skills, location, contact, edu, photos, quote, memoji, project, projectGit, social, inspired, website } = user1[x];
+    const {userId, name, title, skills, location, contact, edu, photos, quote, memoji, project, projectGit, social, inspired, website, projectUrl } = user1[x];
     
     function myGenFn(element){
 
@@ -89,6 +92,7 @@ for(x in user1){
     myGenFn(project);
     myGenFn(projectGit);
     myGenFn(social);
+    myGenFn(projectUrl);
 
     try {
         if(userId, name, quote, inspired, website == ""){
