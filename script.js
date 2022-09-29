@@ -50,7 +50,8 @@ const details = [{
     "inspired" : "https://www.milipernia.com/index.html",
     "website" : "https://a14a19.github.io/index.html",
     "projectUrl" : [
-        "https://nuuk-webapp.web.app/"
+        "https://nuuk-webapp.web.app/",
+        "https://vuwkom.csb.app/"
     ]
 }
 ];
