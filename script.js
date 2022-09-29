@@ -206,7 +206,7 @@ function cssFunction() {
 
 function imgOfProject(){
     const listItem = user1[0].project;
-    const mainList = user1[0]["projectGit"];
+    const mainList = user1[0]["projectUrl"];
 
     for(z in mainList){
         const mainContainer = document.createElement("div");
