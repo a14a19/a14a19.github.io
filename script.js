@@ -52,7 +52,7 @@ const details = [{
     "website" : "https://a14a19.github.io/index.html",
     "projectUrl" : [
         "https://nuuk-webapp.web.app/",
-        "https://vuwkom.csb.app/",
+        "https://3b3jxm.csb.app/",
         "https://r3hurx.csb.app/",
         "https://ngmtwz.csb.app/",
         "https://g1f3ks.csb.app/"
