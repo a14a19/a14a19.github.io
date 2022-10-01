@@ -32,7 +32,8 @@ const details = [{
         "https://live.staticflickr.com/65535/52375674426_9a0850ae2f_o.jpg",
         "https://live.staticflickr.com/65535/52375893898_2d0176288d_o.jpg",
         "https://live.staticflickr.com/65535/52376089980_2662edb9bb_o.jpg",
-        "https://live.staticflickr.com/65535/52382793153_6164c4aec9_o.jpg"
+        "https://live.staticflickr.com/65535/52382793153_6164c4aec9_o.jpg",
+        "https://live.staticflickr.com/65535/52396463596_d6be6b8507_o.jpg"
     ],
     "projectGit" :[
         "https://github.com/a14a19/Nuuk-WebApp",
@@ -53,7 +54,8 @@ const details = [{
         "https://nuuk-webapp.web.app/",
         "https://vuwkom.csb.app/",
         "https://r3hurx.csb.app/",
-        "https://ngmtwz.csb.app/"
+        "https://ngmtwz.csb.app/",
+        "https://g1f3ks.csb.app/"
     ]
 }
 ];
