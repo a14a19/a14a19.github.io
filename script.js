@@ -39,7 +39,8 @@ const details = [{
         "https://github.com/a14a19/Nuuk-WebApp",
         "https://github.com/a14a19/Edyoda-stories",
         "https://github.com/a14a19/Stunning-Landing-page",
-        "https://github.com/a14a19/starwar-pokemon"
+        "https://github.com/a14a19/starwar-pokemon",
+        "https://github.com/a14a19/Quiz-App.git"
     ],
     "social" : [
         "https://github.com/a14a19", 
@@ -52,10 +53,10 @@ const details = [{
     "website" : "https://a14a19.github.io/index.html",
     "projectUrl" : [
         "https://nuuk-webapp.web.app/",
-        "https://3b3jxm.csb.app/",
+        "https://edyoda-stories-form.glitch.me/",
         "https://r3hurx.csb.app/",
-        "https://ngmtwz.csb.app/",
-        "https://g1f3ks.csb.app/"
+        "https://pokemon-starwar.glitch.me/",
+        "https://quiz-web-app.glitch.me/"
     ]
 }
 ];
