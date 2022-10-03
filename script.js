@@ -54,7 +54,7 @@ const details = [{
     "projectUrl" : [
         "https://nuuk-webapp.web.app/",
         "https://edyoda-stories-form.glitch.me/",
-        "https://r3hurx.csb.app/",
+        "https://stunninglandingpage.glitch.me/",
         "https://pokemon-starwar.glitch.me/",
         "https://quiz-web-app.glitch.me/"
     ]
