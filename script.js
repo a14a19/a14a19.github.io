@@ -15,7 +15,8 @@ const details = [{
         "https://goo.gl/maps/u2Z2GPcrYUX2FcHR7" 
     ],
     "photos" : [
-        "https://live.staticflickr.com/65535/52371245278_09df20e79d_z.jpg"
+        "https://live.staticflickr.com/65535/52371245278_09df20e79d_z.jpg",
+        "https://live.staticflickr.com/65535/52410009062_7faa15744e_o.png"
     ], 
     "quote" : "\"Everything should be made as simple as possible, but not simpler.\" - Albert Einstein",
     "memoji" : [
@@ -198,7 +199,7 @@ function innerTextFn(){
 }
 
 function cssFunction() {
-    newProfileImg.src = `${user1[0].photos[0]}`;
+    newProfileImg.src = `${user1[0].photos[1]}`;
     newProfileImg.classList = "profile-image rounded-circle";
     intro.style.cssText = "display: flex; justify-content: center; text-align: center; margin-top: 70px;";
     quoteTxt.style.cssText = "font-size: 60px;";
