@@ -84,12 +84,22 @@ header a:hover {
     z-index: 20;
     backdrop-filter: blur(10px);
 }
-
-.profile-image {
+#profile{
+    width: 250px;
+    height: 250px;
+}
+#profile-img{
     width: 250px;
     height: 250px;
     position: relative;
     box-shadow: 0 0 4px 5px rgba(255, 255, 255, 0.8), 20px -20px 30px #8c8aff5c, -30px -20px 30px #8af1ff5c, 0px 40px 30px #fd8a8a5c;
+    overflow: hidden;
+}
+
+.profile-image {
+    width: 350px;
+    object-fit: cover;
+    object-position: -29px -30%;
 }
 
 main {
