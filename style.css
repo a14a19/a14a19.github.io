@@ -356,6 +356,7 @@ main {
 .work-img img {
     width: 100%;
     height: 100%;
+    object-fit: contain;
 }
 
 .code-w-icon, .bs-w-icon, .git-w-icon, .js-w-icon {
@@ -521,6 +522,7 @@ main {
     width: 225px;
     height: 225px;
     margin: 10px 0px 15px 0px;
+    object-fit: contain;
 }
 
 .about-btm-txt span {
