@@ -32,16 +32,16 @@ const details = [{
         "https://live.staticflickr.com/65535/52412855253_c8e26f56c3_o.png"
     ],
     "project" :[
+        "https://live.staticflickr.com/65535/52417108516_3923793a68_o.png",
         "https://live.staticflickr.com/65535/52375674426_9a0850ae2f_o.jpg",
         "https://live.staticflickr.com/65535/52375893898_2d0176288d_o.jpg",
-        "https://live.staticflickr.com/65535/52376089980_2662edb9bb_o.jpg",
         "https://live.staticflickr.com/65535/52382793153_6164c4aec9_o.jpg",
         "https://live.staticflickr.com/65535/52396463596_d6be6b8507_o.jpg"
     ],
     "projectGit" :[
+        "https://github.com/a14a19/Shoplane",
         "https://github.com/a14a19/Nuuk-WebApp",
         "https://github.com/a14a19/Edyoda-stories",
-        "https://github.com/a14a19/Stunning-Landing-page",
         "https://github.com/a14a19/starwar-pokemon",
         "https://github.com/a14a19/Quiz-App.git"
     ],
@@ -55,9 +55,9 @@ const details = [{
     "inspired" : "https://www.milipernia.com/index.html",
     "website" : "https://a14a19.github.io/index.html",
     "projectUrl" : [
+        "https://glitch.com/~shoplane-webapp",
         "https://nuuk-webapp.web.app/",
         "https://edyoda-stories-form.glitch.me/",
-        "https://stunninglandingpage.glitch.me/",
         "https://pokemon-starwar.glitch.me/",
         "https://quiz-web-app.glitch.me/"
     ]
