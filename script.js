@@ -55,7 +55,7 @@ const details = [{
     "inspired" : "https://www.milipernia.com/index.html",
     "website" : "https://a14a19.github.io/index.html",
     "projectUrl" : [
-        "https://glitch.com/~shoplane-webapp",
+        "https://shoplane-webapp.glitch.me/",
         "https://nuuk-webapp.web.app/",
         "https://edyoda-stories-form.glitch.me/",
         "https://pokemon-starwar.glitch.me/",
