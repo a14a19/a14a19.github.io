@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AnasAhmed - Contact Me</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://live.staticflickr.com/65535/52374090703_58a9273a7b_t.jpg" type="image/jpg">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <style>
+        .contact-header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .contact-header div {
+            margin: 0 15px;
+            cursor: pointer;
+        }
+
+        main {
+            padding-top: 50px;
+            padding-bottom: 100px;
+            width: 100%;
+            height: 100%;
+        }
+
+        #main-container {
+            max-width: 1200px;  
+            min-width: 275px;
+            width: 85%;
+            max-height: 100%;
+            border: 5px solid rgba(245, 245, 245, 0.4);
+            background: rgba(245, 245, 245, 0.2);
+            margin: 2%;
+            padding: 20px 12px;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            overflow: auto;
+        }
+
+        #contact-detail {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        #contact-detail a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+
+        .contact-img {
+            width: 150px;
+            height: 150px;
+            box-shadow: 0 0 4px 4px rgba(255, 255, 255, 0.9);
+            object-fit: contain;
+        }
+
+        #sub-contact-D {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 30px;
+        }
+
+        #sub-contact-D a:hover {
+            color: whitesmoke;
+        }
+
+        .social {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+
+        }
+
+        .social-icon{
+            margin: 0px 50px;
+            font-size: 30px;
+        }
+
+        .social-icon:hover {
+            color: #000000;
+            transform: scale(1.5);
+            transition: all 0.5s;
+        }
+
+        @media(max-width: 550px){
+            .contact-img {
+                width: 200px;
+                height: 200px;
+            }
+            .social-icon{
+                margin: 0px 12px;
+                font-size: 27px;
+            }
+        }
+    </style>
+
+</head>
+<body>
+
+    <header>
+
+        <div>
+            <a href="index.html" id="header-name"></a>
+        </div>
+        <div id="rt-header" class="contact-header">
+            <div>
+                <a href="index.html" title="Home">
+                    <i class="fa-solid fa-house"></i>
+                </a>
+            </div>
+        </div>
+        
+    </header>
+
+    <main>
+        <section id="main-container">
+            
+            <div id="contact-detail">
+                <div id="sub-contact-D"></div>
+            </div>
+
+            <div id="social-contact" class="social">
+                    <a href="https://www.linkedin.com/in/anas-ahmed-3b927913a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bd%2Fl1M40uQCSNbXz%2BEwSvkQ%3D%3D" class="social-icon" target="_blank">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/a14a19" class="social-icon" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100063229659168" class="social-icon" target="_blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/anas_a14a19/" class="social-icon" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com/a_14_a_19" class="social-icon" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+            </div>
+        </section>
+    </main>
+
+    <script>
+
+        const details = [{
+            "userId" : 1,
+            "name" : "Anas Ahmed",
+            "title" : ["Front-End Developer", "MERN Developer"],
+            "skills" : ["JavaScript", "Bootstrap", "HTML", "CSS", "Bootstrap"],
+            "location" : ["Indore, India", 
+                        "https://goo.gl/maps/StJ3pGtbQwcyQ9pM6"
+            ],
+            "contact" : ["+918251039590",
+                        "anas31197@gmail.com" 
+            ],
+            "edu" : [
+                "Edyoda, Educational institution in Bengaluru, Karnataka", 
+                "https://www.edyoda.com/home",
+                "https://goo.gl/maps/u2Z2GPcrYUX2FcHR7" 
+            ],
+            "photos" : [
+                "https://live.staticflickr.com/65535/52371245278_09df20e79d_z.jpg"
+            ], 
+            "quote" : "\"Everything should be made as simple as possible, but not simpler.\" - Albert Einstein",
+            "memoji" : [
+                "https://live.staticflickr.com/65535/52412628019_bcecdc9938_o.png",
+                "https://live.staticflickr.com/65535/52412855238_38320ded51_o.png",
+                "https://live.staticflickr.com/65535/52374357319_bd42e7c80f_o.jpg",
+                "https://live.staticflickr.com/65535/52412627994_57204fb4fe_o.png",
+                "https://live.staticflickr.com/65535/52374286125_c436336221_o.jpg",
+                "https://live.staticflickr.com/65535/52412628014_8d8f166a1f_o.png",
+                "https://live.staticflickr.com/65535/52412855238_38320ded51_o.png",
+                "https://live.staticflickr.com/65535/52412855253_c8e26f56c3_o.png"
+            ],
+            "project" :[
+                "https://live.staticflickr.com/65535/52375674426_9a0850ae2f_o.jpg",
+                "https://live.staticflickr.com/65535/52375893898_2d0176288d_o.jpg",
+                "https://live.staticflickr.com/65535/52376089980_2662edb9bb_o.jpg",
+                "https://live.staticflickr.com/65535/52375984044_9ed5d4db0b_o.jpg"
+            ],
+            "projectGit" :[
+                "https://github.com/a14a19/Nuuk-WebApp",
+                "https://github.com/a14a19/Edyoda-stories",
+                "https://github.com/a14a19/Stunning-Landing-page",
+                "https://github.com/a14a19/pokemon"
+            ],
+            "social" : [
+                "https://github.com/a14a19", 
+                "https://www.linkedin.com/in/anas-ahmed-3b927913a/",
+                "https://www.instagram.com/anas_a14a19/",
+                "https://twitter.com/a_14_a_19",
+                "https://www.facebook.com/profile.php?id=100063229659168"
+            ],
+            "inspired" : "https://www.milipernia.com/index.html"
+        }
+        ];
+
+        const user1 = details.filter((user)=> user.userId == 1);
+
+        const headerName = document.getElementById("header-name");
+        const contactDetail = document.getElementById("contact-detail");
+        const contactImg = document.createElement("img");
+        const subContact = document.getElementById("sub-contact-D");
+        const subContact1 = document.createElement("a"); 
+        const subContact2 = document.createElement("a"); 
+
+        headerName.innerText = `${user1[0].name}`;
+        contactImg.src = `${user1[0].memoji[3]}`;
+        contactImg.classList = "contact-img rounded-circle";
+        subContact1.href = `tel:+918251039590`;
+        subContact1.innerText = `${user1[0].contact[0]}`;
+        subContact2.href = `mailto:anas31197@gmail.com`;
+        subContact2.innerText = `${user1[0].contact[1]}`;
+
+        contactDetail.prepend(contactImg);
+        subContact.appendChild(subContact1);
+        subContact.appendChild(subContact2);
+
+        console.log();
+    </script>
+</body>
+</html>
