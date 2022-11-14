@@ -55,11 +55,11 @@ const details = [{
     "inspired" : "https://www.milipernia.com/index.html",
     "website" : "https://a14a19.github.io/index.html",
     "projectUrl" : [
-        "https://shoplane-webapp.glitch.me/",
-        "https://nuuk-webapp.web.app/",
-        "https://edyoda-stories-form.glitch.me/",
-        "https://pokemon-starwar.glitch.me/",
-        "https://quiz-web-app.glitch.me/"
+        "https://a14a19.github.io/Shoplane/#gsc.tab=0",
+        "https://a14a19.github.io/Nuuk-WebApp/",
+        "https://a14a19.github.io/Edyoda-stories-form/",
+        "https://a14a19.github.io/starwar-pokemon/",
+        "https://a14a19.github.io/Quiz-App/"
     ]
 }
 ];
