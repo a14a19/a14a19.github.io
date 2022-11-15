@@ -461,10 +461,10 @@ main {
 
 #v-git-sub a {
     background-image: linear-gradient( 90deg, #20bdff, #a5fecb );
-    color: #9f41a900;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
+    color: transparent;
     font-weight: 800;
 }
 
