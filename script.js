@@ -75,8 +75,6 @@ fetch(`users-data.json`)
             }
         }
 
-
-
         const rtHeader = document.getElementById("rt-header");
         const hello = document.getElementById("hello");
         const profileImg = document.getElementById("profile-img");
@@ -201,6 +199,9 @@ fetch(`users-data.json`)
             ddCard.classList.toggle("dd-card");
         })
 
+        contactBtn.addEventListener('click', (e) => {
+            location.pathname = `/my-card/`;
+        })
 
         imgOfProject()
         innerTextFn()
