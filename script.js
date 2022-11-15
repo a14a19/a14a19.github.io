@@ -99,6 +99,7 @@ fetch(`users-data.json`)
         const aboutVisit = document.getElementById("about-visit-link");
         const aboutVLink = document.createElement("a");
         const contactBtn = document.getElementById("contact-btn");
+        const letsWork = document.getElementById("lets-work");
         const inspire = document.getElementById("insp");
         const inspA = document.createElement("a");
         const ddBtn = document.getElementById("dd-btn");
@@ -126,8 +127,8 @@ fetch(`users-data.json`)
             aRImg.src = `${user1[0].memoji[5]}`;
             aRImg.alt = "Memoji";
             aRImg.classList = "rounded-circle";
-            aboutVLink.href = `${user1[0].social[2]}`;
-            aboutVLink.innerText = `Wanna know more? Visit my Instagram`;
+            aboutVLink.href = `${user1[0].social[1]}`;
+            aboutVLink.innerText = `Wanna know more? Visit my LinkedIn`;
             aboutVLink.target = "_blank";
             inspA.href = `${user1[0].inspired}`;
             inspA.innerText = `Inspired from Mili Pernia Gonzalez`;
@@ -183,25 +184,27 @@ fetch(`users-data.json`)
         contactBtn.addEventListener('pointerover', () => {
             contactBtn.style.cssText = "transform: translate(0px, -10px); transition: all 0.5s; background: #009FFF; box-shadow: 0px 10px 10px 2px rgba(255, 255, 255, 0.1);"
         })
-
         contactBtn.addEventListener('pointerout', () => {
             contactBtn.style.cssText = "transform: translate(0px, 0px); transition: all 0.5s; background: #26243b; box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.5);"
+        })
+        contactBtn.addEventListener('click', (e) => {
+            e.preventDefault()
+            location.pathname = `/my-card/`;
+        })
+        letsWork.addEventListener('click', (e) => {
+            e.preventDefault()
+            location.pathname = `/my-card/`;
         })
         hello.addEventListener("pointerout", () => {
             hello.style.cssText = "transition: all 1s; display: none;"
         });
-
         hello.addEventListener('click', () => {
             hello.style.cssText = "transition: all 1s; display: none;"
         });
-
         ddBtn.addEventListener('click', () => {
             ddCard.classList.toggle("dd-card");
         })
 
-        contactBtn.addEventListener('click', (e) => {
-            location.pathname = `/my-card/`;
-        })
 
         imgOfProject()
         innerTextFn()

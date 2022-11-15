@@ -207,6 +207,7 @@ main {
 .lets-work {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
 }
 
 .lets-work:hover {
