@@ -112,7 +112,7 @@ fetch(`users-data.json`)
             headerName.href = `${user1[0].website}`;
             mainName.innerText = `${user1[0].name.slice(0, 4)}!`;
             skillCard1.innerText = `${user1[0].skills[0]}`;
-            skillCard2[0].innerText = `${user1[0].skills[4]}`;
+            skillCard2[0].innerText = `${user1[0].skills[1]}`;
             titleText.innerText = `${user1[0].title[0]}`;
             myLocation.innerText = `Based in ${user1[0].location[0]}`
             myLocation.href = `${user1[0].location[1]}`;
